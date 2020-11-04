@@ -1,3 +1,5 @@
-funcion hello() {
-    console.log('hello')
-    console.log('hello!!')
+// funcion hello() {
+// console.log('hello')
+// console.log('hello!!')
+// console.log('hello!!!')
+// }
