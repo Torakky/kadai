@@ -16,3 +16,16 @@ try{
 
 const str3 = '"abc"'
 JSON.parse(str3)
+
+
+const str5 = '{"a" : 123 }'
+JSON.parse(str5)
+
+try {
+    const str6 = '{ a: 123}'
+    JSON.parse(str6)     
+} catch (error) {
+    console.log(error)
+    // JSON のキーはダブルクオテーション("")で囲む必要があるため。
+}
+
