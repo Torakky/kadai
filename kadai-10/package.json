@@ -1,0 +1,19 @@
+{
+  "name": "kadai-10",
+  "version": "4.0.0",
+  "description": "これは課題10です。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "4": "0.0.0",
+    "webpack-cli": "^4.2.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.11.0"
+  }
+}
