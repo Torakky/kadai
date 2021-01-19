@@ -29,3 +29,11 @@ try {
     // JSON のキーはダブルクオテーション("")で囲む必要があるため。
 }
 
+try {
+    const str7 = '{"func":()=>console.log("Hi")}'
+    const jsonstr7 = JSON.parse(str7)
+    console.log(jsonstr7)
+} catch (error) {
+    // 関数は JSON の値としては使えないため
+    console.log("error")
+}        
